@@ -103,6 +103,7 @@
        5. Grafico de funcionamiento
 
 ![DIagrama](imagenes/DiagramaGit.png)
+
   **Configurar Nombre Y Correo** 
 
      ¿Para qué sirve?
@@ -116,10 +117,61 @@
         # Configura email (usar el mismo de tu cuenta Git)
         git config --global user.email "tu@email.com"
       
-       Dato :
 
-        Ver tu configuración actual:
+  **Configurar editor de código que abre Git**   
+      
+       Por defecto, Git usa:
 
-        git config --list  # Muestra todo lo configurado
+        -Vim en sistemas Unix/Linux
 
+        -Nano en algunas distribuciones
+
+        -Notepad en Windows
+
+       Asignar editor 
+
+        git config --global core.editor "code --wait" 
+ 
+  **Comprobar configuracion de Git**
+
+      1. Ver TODA la configuración
+
+        git config --list
+
+      2. Ver un valor específico
+
+       # Ejemplo: ver tu nombre de usuario
+
+        git config user.name
+
+       # Ver tu editor configurado
+
+        git config core.editor
+
+      3. Ver configuración global (de tu usuario)
+
+        git config --global --list
+
+      4. Ver configuración local (solo del repositorio actual)
+
+        git config --local --list
+       
+       Tip: Usa --show-origin para ver DE DÓNDE viene cada configuración:
+
+        git config --list --show-origin
+
+  **¿Cómo inicializar un nuevo proyecto Git?**
+
+      1. Navega a tu carpeta del proyecto
      
+        cd /ruta/de/tu/proyecto
+
+      2. Inicializa repositorio Git
+
+        git init
+
+      3. Verifica el estado
+
+        git status
+
+![inicioRepo](imagenes/InicioRepo.png) 
