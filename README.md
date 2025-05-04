@@ -4,6 +4,6 @@ postulación a la Sociedad Científica de Estudiantes de Sistemas e Informática
 Durante el curso, cubrimos desde los principios básicos del control de versiones hasta
 la gestión de ramas y la colaboración remota.
 
-Cada tema esa divido por ramas
+Cada tema esta divido por ramas
 
 ![scesi](imagenes/unnamed.png)
