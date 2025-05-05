@@ -10,13 +10,13 @@
 
     -Abre el enlace y verifica:
 
-      Repositorio y rama de origen (tu fork).
+      *Repositorio y rama de origen (tu fork).
 
-      Repositorio y rama de destino (original).
+      *Repositorio y rama de destino (original).
 
-      Cambios a enviar.
+      *Cambios a enviar.
 
-      Título y descripción del PR.
+      *Título y descripción del PR.
 
     -Haz clic en "Create Pull Request".
 
@@ -25,7 +25,6 @@
    
   **Marcar tu Pull Request como Borrador (Draft)**
 
-   Marcar tu Pull Request como Borrador (Draft):
 
    Al crear un Pull Request en GitHub, puedes marcarlo como Draft (borrador). Esto:
 
