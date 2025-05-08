@@ -61,20 +61,20 @@
 
   **Revisar una Pull Request**  
 
-   1.Practica la empatía y respeta el tiempo ajeno
-   Agradece el esfuerzo de quien hizo la contribución. Una revisión empática mejora el ambiente del equipo y favorece el aprendizaje mutuo.
+    1.Practica la empatía y respeta el tiempo ajeno
+    Agradece el esfuerzo de quien hizo la contribución. Una revisión empática mejora el ambiente del equipo y favorece el aprendizaje mutuo.
 
-   2.Ofrece retroalimentación constructiva
-   Señala los aspectos positivos y sugiere mejoras de manera clara, amable y orientada al crecimiento. El objetivo no es solo corregir, sino ayudar.
+    2.Ofrece retroalimentación constructiva
+    Señala los aspectos positivos y sugiere mejoras de manera clara, amable y orientada al crecimiento. El objetivo no es solo corregir, sino ayudar.
 
-   3.Sé claro, directo y específico
-   Evita comentarios vagos o ambiguos. Expón tus observaciones con ejemplos concretos para que puedan ser comprendidas y aplicadas fácilmente.
+    3.Sé claro, directo y específico
+    Evita comentarios vagos o ambiguos. Expón tus observaciones con ejemplos concretos para que puedan ser comprendidas y aplicadas fácilmente.
 
-   4.Propón soluciones cuando sea posible
-   Usa las herramientas de sugerencias de código de GitHub para ofrecer alternativas prácticas que agilicen el proceso de mejora.
+    4.Propón soluciones cuando sea posible
+    Usa las herramientas de sugerencias de código de GitHub para ofrecer alternativas prácticas que agilicen el proceso de mejora.
 
-   5.Ten en cuenta el contexto
-   Evalúa si los cambios cumplen su propósito, aunque el código no sea perfecto. A veces, soluciones temporales o parciales son necesarias.
+    5.Ten en cuenta el contexto
+    Evalúa si los cambios cumplen su propósito, aunque el código no sea perfecto. A veces, soluciones temporales o parciales son necesarias.
 
-   6.Incluye un archivo CONTRIBUTING.md
-   Este documento en la raíz del repositorio puede guiar a los colaboradores sobre cómo contribuir, revisar y mantener la coherencia del proyecto.
+    6.Incluye un archivo CONTRIBUTING.md
+    Este documento en la raíz del repositorio puede guiar a los colaboradores sobre cómo contribuir, revisar y mantener la coherencia del proyecto.
