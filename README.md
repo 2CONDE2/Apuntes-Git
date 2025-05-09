@@ -2,7 +2,12 @@
 
   *¿Qué es un Hook?*
 
-     Un hook (o punto de enganche) es un script automatizado que se ejecuta cuando ocurre un evento específico en Git (ej: antes de un commit, después de un push, etc.).
+     Un hook es un 
+     script automatizado que se ejecuta 
+     cuando ocurre un evento específico en 
+     Git (ej: antes de un commit, después 
+     de un push, etc.).
+
 
 
     Tipos de Hooks
@@ -37,3 +42,5 @@
        No se versionan: Los hooks no se guardan en el repo por defecto (usa husky en Node.js para compartirlos).
 
        Soportan cualquier lenguaje (Bash, Python, Ruby, etc.).
+
+  ![hook](imagenes/git-hooks.jpg)     
