@@ -44,3 +44,32 @@
        Soportan cualquier lenguaje (Bash, Python, Ruby, etc.).
 
   ![hook](imagenes/git-hooks.jpg)     
+
+  *Hooks del lado del cliente (Repositorio local)*
+
+     Los hooks son scripts automáticos que se ejecutan cuando ocurren eventos específicos en Git (como hacer commit o push). Solo afectan al repositorio local donde están instalados y no se comparten automáticamente al clonar un proyecto.
+
+     Hooks más útiles:
+
+      pre-commit:
+
+         Ideal para validar código (ejecutar linters) o verificar cambios antes de confirmar.
+
+      commit-msg:
+
+         Perfecto para forzar convenciones en mensajes de commit (como Conventional Commits).
+
+      pre-push:
+
+         Ejecuta tests completos para evitar subir código roto al repositorio remoto.
+
+      post-merge/post-checkout:
+
+         Útiles para limpieza automática (ej: actualizar dependencias al cambiar de rama).
+
+      Limitaciones:
+
+         No se sincronizan por defecto: Cada desarrollador debe configurarlos manualmente.
+
+         El usuario puede omitirlos con --no-verify (no son obligatorios).
+
