@@ -31,19 +31,19 @@
 
   2. Tipos de Commits (Prefixes)
    
-   ┌─────────┬───────────────────────┬─────────────────────────────┐
-   │ Prefijo │ Uso                   │ Ejemplo                     │
-   ├─────────┼───────────────────────┼─────────────────────────────┤
-   │ feat    │ Nueva funcionalidad   │ feat(search): add filter    │
-   ├─────────┼───────────────────────┼─────────────────────────────┤
-   │ fix     │ Corrección de bug     │ fix(login): validate email  │
-   ├─────────┼───────────────────────┼─────────────────────────────┤
-   │ docs    │ Documentación         │ docs: update API examples   │
-   ├─────────┼───────────────────────┼─────────────────────────────┤
-   │ style   │ Formato (sin lógica)  │ style: fix indentation      │
-   └─────────┴───────────────────────┴─────────────────────────────┘
+   
+     Prefijo   Uso                     Ejemplo
+     
+     feat      Nueva funcionalidad     feat(search): add filter    
 
-  3. Reglas de Oro
+     fix       Corrección de bug       fix(login): validate email  
+
+     docs      Documentación           docs: update API examples   
+
+     style     Formato (sin lógica)    style: fix indentation
+     
+
+  4. Reglas de Oro
 
    -Verbos en imperativo (Add, Fix, Remove, Change).
 
