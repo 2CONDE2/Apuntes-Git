@@ -100,5 +100,61 @@
 
   ![buenas](imagenes/buen.png)
 
-  
+  *¿Debería alterar el historial de mi proyecto?*
+   
+  Única Situación Aceptable
+   
+    Exposición de datos sensibles:
 
+      -Contraseñas
+
+      -Claves de API
+
+      -Información privada
+
+    Mejor Práctica
+ 
+      -No borrar del historial:
+
+      -Reiniciar la contraseña/clave expuesta.
+
+      -La información ya está comprometida (borrarla no garantiza seguridad).
+
+    Si es inevitable:
+
+      -Usar git rebase o filter-branch para eliminar el commit sensible.
+
+      -Advertencia: Todos los colaboradores deben resincronizar sus repos locales.
+
+  Casos Comunes (No Alterar Historial)
+
+    Errores en código:
+
+      -Usar git revert (crea un nuevo commit que deshace los cambios).
+
+      -Ventaja: Mantiene trazabilidad del error y su corrección.
+
+    Commits "malos":
+
+      -Mejor añadir un commit nuevo que lo arregle.
+
+  Riesgos de Alterar el Historial
+
+    Problemas de sincronización:
+
+      -Rompe el workflow de otros desarrolladores.
+
+    Pérdida de trazabilidad:
+
+      -El historial ya no refleja la realidad.
+
+    | [ ¿ALTERAR HISTORIAL? ]
+    │
+    ├─🔴 ¿Expusiste datos sensibles? → ⚠️ Rotar credenciales es MEJOR
+    │   │
+    │   └─ Si no es posible → git rebase (como último recurso)
+    │
+    └─🟢 Otros casos → Usar git revert o nuevo commit
+       │
+       ├─ Errores en código → git revert
+       └─ Commits incorrectos → Nuevo commit
