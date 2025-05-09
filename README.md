@@ -32,15 +32,14 @@
   2. Tipos de Commits (Prefixes)
    
    
-     Prefijo   Uso                     Ejemplo
      
-     feat      Nueva funcionalidad     feat(search): add filter    
+     feat  :     Nueva funcionalidad →      feat(search): add filter    
+ 
+     fix  :      Corrección de bug →         fix(login): validate email  
 
-     fix       Corrección de bug       fix(login): validate email  
+     docs  :     Documentación   →          docs: update API examples   
 
-     docs      Documentación           docs: update API examples   
-
-     style     Formato (sin lógica)    style: fix indentation
+     style  :   Formato (sin lógica) →     style: fix indentation
      
 
   4. Reglas de Oro
