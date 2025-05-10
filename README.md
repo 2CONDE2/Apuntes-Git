@@ -100,3 +100,38 @@
 
  
 ![2021](imagenes/201.png)
+
+  *¿Cómo puedo crear mi propio hook?*
+
+     -Crear archivo con nombre del hook (ej: pre-commit).
+
+     -Escribir código en cualquier lenguaje (Bash, Python, etc.).
+
+     -Dar permisos: chmod +x .git/hooks/nombre-del-hook.
+
+
+  *¿Cómo le indico a Git que deje de hacer el seguimiento de un archivo (o varios archivos)?*
+
+    Para un archivo/directorio (sin borrarlo de tu computadora):
+
+     git rm --cached archivo.txt
+
+       Qué hace: Lo elimina del repositorio pero lo mantiene en tu sistema.
+
+    Si está en .gitignore pero Git ya lo trackea:
+
+     git rm -r --cached .
+     
+     git add .
+     
+     git commit -m "Stop tracking ignored files"
+
+    Para múltiples archivos (ej: .log):
+
+     git rm --cached *.log
+
+    Nota clave:
+
+     Usa siempre --cached si no quieres borrar el archivo de tu disco.
+
+
