@@ -73,3 +73,30 @@
 
          El usuario puede omitirlos con --no-verify (no son obligatorios).
 
+  *Hooks del lado del servidor*
+
+     Scripts automáticos que se ejecutan en el repositorio remoto (GitHub, GitLab, etc.) al 
+     recibir cambios.
+
+    3 Hooks principales
+
+       1.pre-receive:
+
+          Valida cambios antes de aceptarlos.
+
+          Ejemplo: Rechazar commits sin mensaje o de usuarios sin permisos.
+
+       2.update:
+
+         Controla cambios por rama o tag.
+
+         Ejemplo: Permitir solo pushes a main desde CI/CD.
+
+       3.post-receive:
+
+         Notificaciones tras aceptar cambios.
+
+         Ejemplo: Enviar emails o activar despliegues.
+
+ 
+![2021](imagenes/201.png)
