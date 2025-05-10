@@ -134,4 +134,4 @@
 
      Usa siempre --cached si no quieres borrar el archivo de tu disco.
 
-
+**BUENO CON ESO CONCLUIMOS LOS APUNTES DEL CURSO DE GIT**
